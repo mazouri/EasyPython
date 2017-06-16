@@ -1,0 +1,9 @@
+Price is below:
+price +2 is 0.02415
+price +4 is 0.02777
+price +8 is 0.03194
+price +16 is 0.03673
+price -2 is 0.01785
+price -4 is 0.01517
+price -8 is 0.01290
+price -16 is 0.01096

@@ -15,17 +15,19 @@ else:
     lf=float(level)
 
 file_name=raw_input("input filename:")
-contents="Price is below:"
+contents="Base price is "+`xf`+",Price is below:"
 
 for i in range(1,5):
     ii=int(i)
     high= xf*pow(2-lf,ii)
-    contents=contents+"\nprice +"+`pow(2,ii)`+" is " +'%.5f' % high
-
+    contents=contents+"\nprice +"+`pow(2,ii)`+" is " +'%.7f' % high
+    
 for i in range(1,5):
     ii=int(i)
     low= xf*pow(lf,ii)
-    contents=contents+"\nprice -"+`pow(2,ii)`+" is " +'%.5f' % low
+    contents=contents+"\nprice -"+`pow(2,ii)`+" is " +'%.7f' % low
 
 print(contents)
 save_to_file(file_name, contents)
+
+
