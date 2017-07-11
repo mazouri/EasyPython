@@ -8,4 +8,4 @@
 - [3.代码的调试、运行](http://blog.csdn.net/u013088062/article/details/50130991)
 - [4.有关Python解释器的相关配置](http://blog.csdn.net/u013088062/article/details/50135135)
 - [5.Python快捷键相关设置](http://blog.csdn.net/u013088062/article/details/50144201)
-- 1.
+- [6.将Pycharm作为Vim编辑器使用](http://blog.csdn.net/u013088062/article/details/50148219)
