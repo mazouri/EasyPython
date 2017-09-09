@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ContentHandler	small_project/parse_xml/parsexml.py	/^from xml.sax.handler import ContentHandler$/;"	i
+Dispatcher	small_project/parse_xml/parsexml.py	/^class Dispatcher:$/;"	c
+SweetPotato	simple_demo/SweetPotato.py	/^class SweetPotato:$/;"	c
+WebsiteConstructor	small_project/parse_xml/parsexml.py	/^class WebsiteConstructor(Dispatcher, ContentHandler):$/;"	c
+__init__	simple_demo/SweetPotato.py	/^    def __init__(self):$/;"	m	class:SweetPotato
+__init__	small_project/parse_xml/parsexml.py	/^    def __init__(self, directory):$/;"	m	class:WebsiteConstructor
+__str__	simple_demo/SweetPotato.py	/^    def __str__(self):$/;"	m	class:SweetPotato	file:
+__version__	simple_demo/module.py	/^__version__ = '0.1'$/;"	v
+age	simple_demo/Demo.py	/^age = 20$/;"	v
+characters	small_project/parse_xml/parsexml.py	/^    def characters(self, chars):$/;"	m	class:WebsiteConstructor
+contents	coin/buycoin.py	/^    contents=contents+"\\nprice +"+`pow(2,ii)`+" is " +'%.7f' % high$/;"	v
+contents	coin/buycoin.py	/^    contents=contents+"\\nprice -"+`pow(2,ii)`+" is " +'%.7f' % low$/;"	v
+contents	coin/buycoin.py	/^contents="Base price is "+`xf`+",Price is below:"$/;"	v
+cook	simple_demo/SweetPotato.py	/^    def cook(self, cooked_time):$/;"	m	class:SweetPotato
+data	SpiderCode/DemoSendData.py	/^data = urllib.parse.urlencode(values).encode('utf8')$/;"	v
+data	SpiderCode/DemoSendDataWIthHeader.py	/^data = urllib.parse.urlencode(values)$/;"	v
+defaultEnd	small_project/parse_xml/parsexml.py	/^    def defaultEnd(self, name):$/;"	m	class:WebsiteConstructor
+defaultStart	small_project/parse_xml/parsexml.py	/^    def defaultStart(self, name, attrs):$/;"	m	class:WebsiteConstructor
+di_gua	simple_demo/SweetPotato.py	/^di_gua = SweetPotato()$/;"	v
+dispatch	small_project/parse_xml/parsexml.py	/^    def dispatch(self, prefix, name, attrs=None):$/;"	m	class:Dispatcher
+endDirectory	small_project/parse_xml/parsexml.py	/^    def endDirectory(self):$/;"	m	class:WebsiteConstructor
+endElement	small_project/parse_xml/parsexml.py	/^    def endElement(self, name):$/;"	m	class:Dispatcher
+endPage	small_project/parse_xml/parsexml.py	/^    def endPage(self):$/;"	m	class:WebsiteConstructor
+ensureDirectory	small_project/parse_xml/parsexml.py	/^    def ensureDirectory(self):$/;"	m	class:WebsiteConstructor
+file_name	coin/buycoin.py	/^file_name=raw_input("input filename:")$/;"	v
+filename	small_project/parse_xml/parsexml.py	/^	filename = os.path.join(*self.directory + [attrs['name']+'.html'])$/;"	v	class:WebsiteConstructor
+headers	SpiderCode/DemoSendDataWIthHeader.py	/^headers = {'User-Agent': user_agent}$/;"	v
+high	coin/buycoin.py	/^    high= xf*pow(2-lf,ii)$/;"	v
+html	SpiderCode/Demo.py	/^html = response.read()$/;"	v
+html	SpiderCode/DemoRequest.py	/^html = response.read()$/;"	v
+ii	coin/buycoin.py	/^    ii=int(i)$/;"	v
+level	coin/buycoin.py	/^level=raw_input("input level by \\n9.95,0.9,0.85... :")$/;"	v
+lf	coin/buycoin.py	/^    lf=0.85$/;"	v
+lf	coin/buycoin.py	/^    lf=float(level)$/;"	v
+low	coin/buycoin.py	/^    low= xf*pow(lf,ii)$/;"	v
+main	simple_demo/demo.c	/^int main(int argc, char ** argv)$/;"	f
+module	simple_demo/Demo.py	/^import module$/;"	i
+name	simple_demo/Demo.py	/^name = 'mazouri'$/;"	v
+os	small_project/parse_xml/parsexml.py	/^import os$/;"	i
+parse	SpiderCode/DemoSendData.py	/^import urllib.parse$/;"	i
+parse	SpiderCode/DemoSendDataWIthHeader.py	/^import urllib.parse$/;"	i
+parse	small_project/parse_xml/parsexml.py	/^from xml.sax import parse$/;"	i
+passthrough	small_project/parse_xml/parsexml.py	/^    passthrough = False$/;"	v	class:WebsiteConstructor
+req	SpiderCode/DemoSendData.py	/^req = urllib.request.Request(url, data)$/;"	v
+req	SpiderCode/DemoSendDataWIthHeader.py	/^req = urllib.request.Request(url, data, headers)$/;"	v
+request	SpiderCode/Demo.py	/^import urllib.request$/;"	i
+request	SpiderCode/DemoRequest.py	/^import urllib.request$/;"	i
+request	SpiderCode/DemoRequest.py	/^request = urllib.request.Request("http:\/\/www.baidu.com")$/;"	v
+request	SpiderCode/DemoSendData.py	/^import urllib.request$/;"	i
+request	SpiderCode/DemoSendDataWIthHeader.py	/^import urllib.request$/;"	i
+response	SpiderCode/Demo.py	/^response = urllib.request.urlopen("http:\/\/www.baidu.com")$/;"	v
+response	SpiderCode/DemoRequest.py	/^response = urllib.request.urlopen(request)$/;"	v
+response	SpiderCode/DemoSendData.py	/^response = urllib.request.urlopen(req)$/;"	v
+response	SpiderCode/DemoSendDataWIthHeader.py	/^response = urllib.request.urlopen(req)$/;"	v
+response	spider/demo.py	/^response=urllib2.urlopen("http:\/\/www.baidu.com")$/;"	v
+save_to_file	coin/buycoin.py	/^def save_to_file(file_name, contents):$/;"	f
+say_hi	simple_demo/module.py	/^def say_hi():$/;"	f
+startDirectory	small_project/parse_xml/parsexml.py	/^    def startDirectory(self, attrs):$/;"	m	class:WebsiteConstructor
+startElement	small_project/parse_xml/parsexml.py	/^    def startElement(self, name, attrs):$/;"	m	class:Dispatcher
+startPage	small_project/parse_xml/parsexml.py	/^    def startPage(self, attrs):$/;"	m	class:WebsiteConstructor
+sys	simple_demo/Demo.py	/^import sys$/;"	i
+testTag	simple_demo/Demo.py	/^def testTag():$/;"	f
+the_page	SpiderCode/DemoSendData.py	/^the_page = response.read()$/;"	v
+the_page	SpiderCode/DemoSendDataWIthHeader.py	/^the_page = response.read()$/;"	v
+url	SpiderCode/DemoSendData.py	/^url = 'http:\/\/www.python.org\/'$/;"	v
+url	SpiderCode/DemoSendDataWIthHeader.py	/^url = ''$/;"	v
+urllib	SpiderCode/Demo.py	/^import urllib.request$/;"	i
+urllib	SpiderCode/DemoRequest.py	/^import urllib.request$/;"	i
+urllib	SpiderCode/DemoSendData.py	/^import urllib.parse$/;"	i
+urllib	SpiderCode/DemoSendData.py	/^import urllib.request$/;"	i
+urllib	SpiderCode/DemoSendDataWIthHeader.py	/^import urllib.parse$/;"	i
+urllib	SpiderCode/DemoSendDataWIthHeader.py	/^import urllib.request$/;"	i
+urllib2	spider/demo.py	/^import urllib2$/;"	i
+user_agent	SpiderCode/DemoSendDataWIthHeader.py	/^user_agent = 'Mozilla\/4.0 (compatible; MSIE 5.5; Windows NT)'$/;"	v
+values	SpiderCode/DemoSendData.py	/^values = {$/;"	v
+values	SpiderCode/DemoSendDataWIthHeader.py	/^values = {$/;"	v
+writeFooter	small_project/parse_xml/parsexml.py	/^    def writeFooter(self):$/;"	m	class:WebsiteConstructor
+writeHeader	small_project/parse_xml/parsexml.py	/^    def writeHeader(self, title):$/;"	m	class:WebsiteConstructor
+x	coin/bitcoin.py	/^x=raw_input("input your price now:")$/;"	v
+x	coin/buycoin.py	/^x=raw_input("input your price now:")$/;"	v
+xf	coin/buycoin.py	/^xf=float(x)$/;"	v
+y	coin/bitcoin.py	/^y=3-6*pow(float(x)+2,-1)$/;"	v
