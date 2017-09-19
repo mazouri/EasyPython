@@ -1,1 +1,1 @@
-# EasyPython2017
+# EasyPython
